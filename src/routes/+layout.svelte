@@ -1,8 +1,8 @@
 <script>
 import '/src/css/index.css'
 import config from '/src/config'
-import Header from '$lib/Header.svelte'
 import PageLoader from './PageLoader.svelte'
+import IntroSection from '$lib/IntroSection.svelte'
 
 export let data
 </script>
@@ -18,6 +18,10 @@ export let data
 </svelte:head>
 
 <PageLoader />
+
+{#if data.pathname === '/'}
+  <IntroSection />
+{/if}
 
 <div class="minvh mindvh col max49">
   <div>
