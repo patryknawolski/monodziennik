@@ -19,7 +19,7 @@ export let data
 
 <PageLoader />
 
-<div class="minvh mindvh col max49 mx">
+<div class="minvh mindvh col max49">
   <div>
     <header class="px1 py2 md:p2">
       <div class="row justify-between items-start w100">
