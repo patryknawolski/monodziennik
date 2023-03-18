@@ -23,19 +23,19 @@ export let data
   <IntroSection />
 {/if}
 
-<div class="minvh mindvh col max49">
+<div class="minvh mindvh col">
   {#if data.pathname === '/'}
     <div>
       <header class="px1 py2 md:p2">
-        <div class="row justify-between items-start w100">
-          <a href="/" title={config.siteTitle}><h1 class="h2 lh1 lsh bold">dziennik</h1></a>
-          <h2 class="h5 sd:h4 lh1 lsh bold">stanisław szpineta - mono</h2>
-        </div>
+        <!-- <div class="row justify-between items-start w100"> -->
+        <a href="/" title={config.siteTitle}><h1 class="h2 md:h1 lh1 lsh bold">dziennik</h1></a>
+        <h2 class="h5 sd:h4 md:h3 lh1 lsh bold">stanisław szpineta - mono</h2>
+        <!-- </div> -->
       </header>
     </div>
   {/if}
 
-  <main class="span1">
+  <main class="span1 max49">
     <slot />
   </main>
 

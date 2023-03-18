@@ -13,7 +13,7 @@ import Header from '$lib/Header.svelte'
   <Header>Error {$page.status}</Header>
 
   <div class="px1 md:px2">
-    <div class="copy h5 lh2">
+    <div class="copy h4 lh2">
       {#if $page.status === 404}
         <p>Page not found.</p>
       {:else}

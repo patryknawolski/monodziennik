@@ -7,4 +7,6 @@ import ArchiveSection from '$lib/ArchiveSection.svelte'
   <title>{config.siteTitle} Archive</title>
 </svelte:head>
 
-<ArchiveSection limit={false} />
+<div class="py1 md:py2">
+  <ArchiveSection limit={false} />
+</div>
