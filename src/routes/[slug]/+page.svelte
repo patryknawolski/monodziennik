@@ -13,4 +13,4 @@ export let data
 
 <PostSection post={data.post} />
 
-<ArchiveSection />
+<ArchiveSection postId={data.post.id} />

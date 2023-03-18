@@ -1,3 +1,12 @@
-<header class="px1 py2 md:p2">
-  <h1 class="h1 lh1 lsh"><slot /></h1>
+<script>
+export const classNames = 'h2 lh1 lsh bold'
+export let tag = 'h1'
+</script>
+
+<header class="px1 md:p2">
+  {#if tag === 'h1'}
+    <h1 class={classNames}><slot /></h1>
+  {:else if tag === 'h2'}
+    <h2 class={classNames}><slot /></h2>
+  {/if}
 </header>

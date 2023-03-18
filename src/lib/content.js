@@ -4,13 +4,14 @@ const pages = Object.entries(import.meta.glob('/content/**/*.md', { eager: true 
     meta: Page.metadata,
     Page: Page.default,
   }))
-  .filter((x) => x.meta && !x.meta.draft)
+  .filter((x) => !x.meta.draft)
 
 export function loadPages() {
   return pages.map((x) => ({
     id: x.id,
     title: x.meta.title,
     date: x.meta.date,
+    page: x.meta.page,
   }))
 }
 

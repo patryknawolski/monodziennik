@@ -1,6 +1,6 @@
 const config = {
-  siteTitle: 'Tablog',
-  siteTagline: 'Minimalistic Blog Theme',
+  siteTitle: 'mono',
+  siteTagline: 'stanisław szpineta',
   dateFormat: 'MMM dd, yyyy',
 }
 
