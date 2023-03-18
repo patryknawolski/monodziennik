@@ -24,7 +24,7 @@ export let data
     <header class="px1 py2 md:p2">
       <div class="row justify-between items-start w100">
         <a href="/" title={config.siteTitle}><h1 class="h2 lh1 lsh bold">dziennik</h1></a>
-        <h2 class="h4 lh1 lsh bold">stanisław szpineta - mono</h2>
+        <h2 class="h5 sd:h4 lh1 lsh bold">stanisław szpineta - mono</h2>
       </div>
     </header>
   </div>

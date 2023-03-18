@@ -19,7 +19,8 @@
 :root {
   --text-decoration-thickness: 1px;
   --text-underline-offset: 2px;
-  --bg-shade: #f8f8f8;
+  /* overwrite abrusco bg-color */
+  --default-bg-color: #fbf9f2;
 }
 
 body {
